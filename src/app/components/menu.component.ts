@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
         <div class="w-full lg:w-1/2 px-4 mb-10 md:mb-0">
           <div class="flex flex-wrap -mx-4">
             <div class="w-full md:w-1/2 px-4 mb-8 md:mb-0 md:mt-8 ">
-              <div class="relative w-full h-96 bg-donutgreen mb-10 rounded-xl">
+              <div class="relative w-full h-96 items-center bg-donutgreen mb-10 rounded-xl">
                <img class="donuts" src="assets/imgs/glazed-cinnamon.jpg" alt="">
               </div>
               <div class="relative w-full h-96 bg-donutpink rounded-xl">
@@ -36,15 +36,15 @@ import { CommonModule } from '@angular/common';
             <p class="leading-8 mb-14" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit id dicta corporis est officia praesentium mollitia quae obcaecati, go nuts for Doh'nuts.</p>
             <div>
               <div class="flex items-center mb-8">
-                <img class="block mr-5" src="assets/svgs/check.svg" alt="" >
+                <img class="block mr-4" src="assets/svgs/check.svg" alt="" >
                 <p >New York Cheesecake</p>
               </div>
               <div class="flex items-center mb-8">
-                <img class="block mr-5"  src="assets/svgs/check.svg" alt="" >
+                <img class="block mr-4"  src="assets/svgs/check.svg" alt="" >
                 <p >Strawberry Iced with sprinkles</p>
               </div>
               <div class="flex items-center">
-                <img class="block mr-5"  src="assets/svgs/check.svg" alt="" >
+                <img class="block mr-4"  src="assets/svgs/check.svg" alt="" >
                 <p >Oreo Cookie</p>
               </div>
             </div>

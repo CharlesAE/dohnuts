@@ -20,7 +20,7 @@ import { CommonModule } from '@angular/common';
                 
               </div>
               <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <p class="text-white" >Yet another captivating, very likely Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut nulla debitis! text about doh'nuts!</p>
+                <p class="text-white font-bold tracking-wide drop-shadow-md leading-6" >Yet another captivating, very likely Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut nulla debitis! text about doh'nuts!</p>
               </div>
               <div class="w-full lg:w-1/3 px-4 lg:text-right"><a class="btns transition duration-200" href="#" >Buy Now</a></div>
             </div>
