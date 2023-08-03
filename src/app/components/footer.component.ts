@@ -13,13 +13,16 @@ import { CommonModule } from '@angular/common';
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap  justify-between  items-center">
           <div class="w-full lg:w-auto px-4 mb-6 lg:mb-0">
-            <p class="text-sm " >&copy; Doh'nuts.nom 2023</p>
+            <p class="text-sm " >&copy; Doh'nuts.nom by 
+            <a href="https://www.charlesae.dev" class="footerlink" >charlesae.dev</a>
+  
+            </p>
           </div>
           <div class="w-full lg:w-auto px-4 mb-6 lg:mb-0">
             <ul class="lg:flex justify-center text-donutpink">
-              <li class="mb-4 lg:mb-0 lg:mr-12"><a class="inline-block font-bold hover:text-donutblue" href="#" style="font-size: 14px;">Hello</a></li>
-              <li class="mb-4 lg:mb-0 lg:mr-12"><a class="inline-block font-bold hover:text-donutblue" href="#" style="font-size: 14px;" >Story</a></li>
-              <li ><a class="inline-block font-bold hover:text-donutblue" href="#" style="font-size: 14px;" >About us</a></li>
+              <li class="mb-4 lg:mb-0 lg:mr-12"><a class="footerlink" href="#" style="font-size: 14px;">Products</a></li>
+              <li class="mb-4 lg:mb-0 lg:mr-12"><a class="footerlink" href="#" style="font-size: 14px;" >About</a></li>
+              
             </ul>
           </div>
           <div class="w-full md:w-auto px-4">
@@ -33,11 +36,13 @@ import { CommonModule } from '@angular/common';
             </div>
           </div>
         </div>
+        
       </div>
+      
   </div>
   </div>
 
-
+  
 </section>
   `,
   styles: [
