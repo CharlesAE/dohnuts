@@ -12,16 +12,16 @@ import { CommonModule } from '@angular/common';
     <div class="py-16 ">
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap  justify-between  items-center">
-          <div class="w-full lg:w-auto px-4 mb-6 lg:mb-0">
+          <div class="w-full md:w-auto px-4 mb-6 md:mb-0">
             <p class="text-sm " >&copy; Doh'nuts.nom by 
             <a href="https://www.charlesae.dev" class="footerlink" >charlesae.dev</a>
   
             </p>
           </div>
-          <div class="w-full lg:w-auto px-4 mb-6 lg:mb-0">
-            <ul class="lg:flex justify-center text-donutpink">
-              <li class="mb-4 lg:mb-0 lg:mr-12"><a class="footerlink" href="#" style="font-size: 14px;">Products</a></li>
-              <li class="mb-4 lg:mb-0 lg:mr-12"><a class="footerlink" href="#" style="font-size: 14px;" >About</a></li>
+          <div class="w-full md:w-auto px-4 mb-6 md:mb-0">
+            <ul class="md:flex justify-center text-donutpink">
+              <li class="mb-4 md:mb-0 md:mr-12"><a class="footerlink" href="#" style="font-size: 14px;">Products</a></li>
+              <li class="mb-4 md:mb-0 md:mr-12"><a class="footerlink" href="#" style="font-size: 14px;" >About</a></li>
               
             </ul>
           </div>

@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-dohnut',
   template: `
    
       
       <app-home></app-home>
     
-    <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
 })

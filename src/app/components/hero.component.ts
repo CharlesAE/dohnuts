@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
    <div class="container px-4 mx-auto">
               <div class=" flex flex-wrap md:items-center  justify-between">
               
-                <div class=" gradient-donut rounded-xl text-white background-animate px-6 md:px-14 py-14 xl:py-20 xl:px-24 mb-14 md:max-w-sm lg:max-w-lg xl:max-w-2xl">
+                <div class=" gradient-donut rounded-xl text-white background-animate px-6 md:px-14 py-14 xl:py-20 xl:px-24 mb-14 md:max-w-sm md:max-w-lg xl:max-w-2xl">
                   <div class="md:max-w-lg ">
                    
                   <h1 class="mb-6 text-6xl md:text-7xl font-extrabold leading-[1.25] tracking-wide drop-shadow-lg">
@@ -37,7 +37,7 @@ import { CommonModule } from '@angular/common';
                     <img class="w-full md:w-auto rounded-lg transform hover:scale-[.9] transition ease-in-out duration-1000" src="assets/imgs/logo.png" alt="">
                   </div>
 
-                  <div class="md:p-8 md:absolute md:left-1/2 md:lg:transform md:-translate-x-1/2 bottom-0 left-0 w-full md:w-3/4 ">
+                  <div class="md:p-8 md:absolute md:left-1/2 md:md:transform md:-translate-x-1/2 bottom-0 left-0 w-full md:w-3/4 ">
                     
                     <div class="relative w-full p-2 md:p-10 bg-champagne bg-opacity-70 backdrop-blur-xl rounded-lg">
                    

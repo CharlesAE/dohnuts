@@ -14,15 +14,15 @@ import { CommonModule } from '@angular/common';
         <div class="mx-auto ">
           <div class="py-12 px-6 md:p-20 bg-donutblue rounded-xl z-50">
             <div class="flex flex-wrap -mx-4 items-center">
-              <div class="w-full md:w-1/3 px-4 mb-8 lg:mb-0">
+              <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
                 
                   <img class="w-full md:w-1/2" src="assets/imgs/strawberry-iced.jpg" >
                 
               </div>
-              <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+              <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
                 <p class="text-white font-bold tracking-wide drop-shadow-md leading-6" >Yet another captivating, very likely Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut nulla debitis! text about doh'nuts!</p>
               </div>
-              <div class="w-full lg:w-1/3 px-4 lg:text-right"><a class="btns transition duration-200" href="#" >Buy Now</a></div>
+              <div class="w-full md:w-1/3 px-4 md:text-right"><a class="btns transition duration-200" href="#" >Buy Now</a></div>
             </div>
           </div>
           

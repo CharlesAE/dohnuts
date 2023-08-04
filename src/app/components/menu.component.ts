@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
     <section  class=''>
     <div class="container px-4 mx-auto">
       <div class="flex flex-wrap -mx-4 items-center">
-        <div class="w-full lg:w-1/2 px-4 mb-10 md:mb-0">
+        <div class="w-full md:w-1/2 px-4 mb-10 md:mb-0">
           <div class="flex flex-wrap -mx-4">
             <div class="w-full md:w-1/2 px-4 mb-8 md:mb-0 md:mt-8 ">
               <div class="relative w-full h-96 items-center bg-donutgreen mb-10 rounded-xl">
@@ -30,9 +30,9 @@ import { CommonModule } from '@angular/common';
              </div>
           </div>
         </div>
-        <div class="w-full lg:w-1/2 px-4">
-          <div class="max-w-md lg:mx-auto">
-            <h2 class="text-4xl lg:text-5xl font-heading mb-9">These donuts are the truth<span class="text-donutblue">.</span></h2>
+        <div class="w-full md:w-1/2 px-4">
+          <div class="max-w-md md:mx-auto">
+            <h2 class="text-4xl md:text-5xl font-heading mb-9">These donuts are the truth<span class="text-donutblue">.</span></h2>
             <p class="leading-8 mb-14" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit id dicta corporis est officia praesentium mollitia quae obcaecati, go nuts for Doh'nuts.</p>
             <div>
               <div class="flex items-center mb-8">
