@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-  <section class='mt-10'>
+  <section >
    <div class="container px-4 mx-auto">
               <div class=" flex flex-wrap md:items-center  justify-between">
               

@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <nav class="py-10 space-y-10" >
+    <nav class="py-6 space-y-6" >
       
     <div class="container px-4 mx-auto">
       <div class="flex items-center justify-between relative">
