@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
     <div class="container px-4 mx-auto">
       <div class="flex items-center justify-between relative">
         <div class="hidden md:block">
-          <a class="font-bold hover:text-donutpink" href="#" >Products</a>
+          <a class="font-bold hover:text-donutpink" href="dohnuts" >Products</a>
         </div>
         
         <div class="brand ">

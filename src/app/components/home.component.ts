@@ -11,12 +11,10 @@ import { MenuComponent } from './menu.component';
   standalone: true,
   imports: [CommonModule, HeroComponent, CtaComponent, FooterComponent,MenuComponent, NavbarComponent],
   template: `
-    <div class="bg-white dark:bg-darkchampagne text-darkchampagne dark:text-white">
-    <app-navbar [theme]=thememode (changeMode)="changed($event)" />
+    <div >
     <app-hero/>
     <app-menu/>
     <app-cta/>
-    <app-footer/>
     </div>
   `,
   styles: [
@@ -24,14 +22,6 @@ import { MenuComponent } from './menu.component';
 })
 export class HomeComponent  {
   
-thememode = true;
 
-  changed(clicked: boolean) {
-    this.thememode = clicked;
-  }
-
-  @HostBinding('class.dark') get mode() {
-    return this.thememode;
-  }
 
 }

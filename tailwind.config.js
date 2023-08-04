@@ -15,6 +15,12 @@ module.exports = {
       'champagne' : "#8A9EA1",
       'darkchampagne':"#454f51"
       
+      },
+      flex: {
+        'main': '1 0 auto'
+      },
+      padding: {
+        'spacing': '0 0 0'
       }
     },
   },

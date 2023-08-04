@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar.component';
 import { HomeComponent } from './components/home.component';
+import { FooterComponent } from './components/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HomeComponent } from './components/home.component';
     BrowserModule,
     AppRoutingModule,
     NavbarComponent,
+    FooterComponent,
     HomeComponent
   ],
   providers: [],

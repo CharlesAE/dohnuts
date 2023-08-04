@@ -45,14 +45,14 @@ import { CommonModule } from '@angular/common';
                       
                       <div>
                         <span class="text-xl xs:text-5xl font-semibold text-white" >18k+</span>
-                        <span class="block text-sm text-donutpink">Donuts Sold</span>
+                        <span class="block font-bold uppercase text-sm text-donutblue">Donuts Sold</span>
                       </div>
 
-                      <div class="h-12 w-px mx-auto bg-donutblue"></div>
+                      <div class="h-12 w-px mx-auto bg-donutpink"></div>
 
                       <div>
                         <span class="text-xl xs:text-5xl font-semibold text-white" >20+</span>
-                        <span class="block text-sm text-donutpink" >Awards Won</span>
+                        <span class="block font-bold uppercase text-sm text-donutblue" >Awards Won</span>
                       </div>
 
                     </div>

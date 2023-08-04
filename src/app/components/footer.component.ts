@@ -20,7 +20,7 @@ import { CommonModule } from '@angular/common';
           </div>
           <div class="w-full md:w-auto px-4 mb-6 md:mb-0">
             <ul class="md:flex justify-center text-donutpink">
-              <li class="mb-4 md:mb-0 md:mr-12"><a class="footerlink" href="#" style="font-size: 14px;">Products</a></li>
+              <li class="mb-4 md:mb-0 md:mr-12"><a class="footerlink" href="dohnuts" style="font-size: 14px;">Products</a></li>
               <li class="mb-4 md:mb-0 md:mr-12"><a class="footerlink" href="#" style="font-size: 14px;" >About</a></li>
               
             </ul>
