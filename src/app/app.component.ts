@@ -1,11 +1,11 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, signal } from '@angular/core';
 
 @Component({
   selector: 'app-dohnut',
   template: `
    
-   <body class="flex flex-col bg-white dark:bg-darkchampagne text-darkchampagne dark:text-white">
-   <app-navbar [theme]=thememode (changeMode)="changed($event)" class=" flex-none"/>
+   <body class="flex flex-col mainbg maintext">
+   <app-navbar [theme]=sitetheme  class=" flex-none"/>
 
   <main class=" min-h-screen flex-main">
     <router-outlet  ></router-outlet>
@@ -18,14 +18,12 @@ import { Component, HostBinding } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  thememode = true;
 
-  changed(clicked: boolean) {
-    this.thememode = clicked;
-  }
+  sitetheme = signal(false);
 
-  @HostBinding('class.dark') get mode() {
-    return this.thememode;
+  @HostBinding('class.dark') get theme() {
+    return this.sitetheme();
   }
+ 
   title = 'dohnuts';
 }

@@ -16,6 +16,10 @@ module.exports = {
       'darkchampagne':"#454f51"
       
       },
+      backgroundSize: {
+        '50': '60%',
+        '16': '4rem',
+      },
       flex: {
         'main': '1 0 auto'
       },

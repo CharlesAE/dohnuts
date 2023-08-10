@@ -27,12 +27,12 @@ import { CommonModule } from '@angular/common';
                 <div class="w-full md:w-1/2 p-8 ">
                   
 
-            <div class="w-full md:w-1/2 xl:w-auto p-8 xl:p-12 relative">
+            <div class="w-full md:w-1/2 xl:w-auto p-4 md:p-12 relative text-center">
             <img class="absolute -bottom-20 md:bottom-0 right-0 md:-right-[10rem]  h-32 md:h-60 z-20 " src="assets/imgs/mini-strawberry.jpg" alt="">
        
                 <div class="md:inline-block relative ">
                 
-                <div class="overflow-hidden  mb-4 md:mb-0">
+                <div class="overflow-hidden bg-reed  mb-4 md:mb-0">
                   
                     <img class="w-full md:w-auto rounded-lg transform hover:scale-[.9] transition ease-in-out duration-1000" src="assets/imgs/logo.png" alt="">
                   </div>
