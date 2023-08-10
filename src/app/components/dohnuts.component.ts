@@ -16,7 +16,7 @@ import { Dohnut } from '../model/dohnut';
           </div>
           <div class="flex flex-wrap my-6"> 
           <div class="w-full md:w-1/2 xl:w-1/4 p-3" *ngFor ="let dohnut of dohnutlist">
-              <a (click)="gotoDohnut(dohnut)">
+              <a (click)="gotoDohnut(dohnut)" class=" cursor-pointer">
                 <div class="group flex flex-col justify-end h-full relative overflow-hidden rounded-10">
                   <img class="mx-auto w-full transform group-hover:scale-110 transition ease-out duration-500" src={{dohnut.img}} alt="">
                   <div class="absolute bottom-0 left-0 w-full p-2">
