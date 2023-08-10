@@ -53,10 +53,8 @@ export class DohnutComponent {
   dohnut: any | undefined;
   toppings: string[] = []
   constructor(private router: Router){
-    console.log()
     this.dohnut = this.router.getCurrentNavigation()?.extras.state
     this.toppings = this.dohnut.types
-    console.log(this.dohnut);
   }
   
 }

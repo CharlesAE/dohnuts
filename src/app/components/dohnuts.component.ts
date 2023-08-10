@@ -41,12 +41,12 @@ export class DohnutsComponent {
 
   constructor(dohnutService: DohnutService ,private router: Router){
     this.dohnutlist = dohnutService.getDohnutList();
-    console.log(this.dohnutlist);
+    
   }
 
 
   gotoDohnut(dohnut: Dohnut) {
-    console.log(dohnut)
+    
     this.router.navigateByUrl('/dohnut', { state: dohnut });
   }
 

@@ -72,7 +72,6 @@ setTheme(){
   
 }
 toggleMenu() {
-  console.log(this.menu)
   this.menu = !this.menu;
 }
   
