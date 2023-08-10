@@ -19,7 +19,9 @@ import { Component, HostBinding, signal } from '@angular/core';
 })
 export class AppComponent {
 
-  sitetheme = signal(false);
+  sitetheme = signal<boolean>(
+    JSON.parse(window.localStorage.getItem('darkMode') ?? 'false')
+  );
 
   @HostBinding('class.dark') get theme() {
     return this.sitetheme();

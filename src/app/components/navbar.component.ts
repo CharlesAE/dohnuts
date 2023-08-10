@@ -69,11 +69,13 @@ export class NavbarComponent {
 
 setTheme(){
   this.theme.set(!this.theme())
-  
+  window.localStorage.setItem('darkMode', JSON.stringify(this.theme()));
 }
 toggleMenu() {
   this.menu = !this.menu;
 }
+
+
   
 
   title = 'dohnuts';
