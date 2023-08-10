@@ -24,10 +24,13 @@
     @apply text-donutpink inline-block  hover:text-donutblue font-bold
 }
 .mainbg{
-    @apply bg-white dark:bg-champagne
+    @apply bg-white dark:bg-darkchampagne
 }
 .maintext{
-    @apply text-darkchampagne dark:text-white
+    @apply text-champagne dark:text-white
+}
+.donutstats{
+    @apply block font-bold uppercase text-sm text-donutblue
 }
   .gradient-donut{
     background-origin: border-box;

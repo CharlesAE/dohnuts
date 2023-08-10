@@ -12,7 +12,7 @@ import { Dohnut } from '../model/dohnut';
     <section  class="overflow-hidden" >
         <div class="container mx-auto px-4">
           <div class=" mx-auto text-center ">
-            <h2 class="font-semibold text-white text-6xl sm:text-7xl" >Our Dohnuts</h2>
+            <h2 class="font-semibold maintext text-6xl sm:text-7xl" >Our Dohnuts</h2>
           </div>
           <div class="flex flex-wrap my-6"> 
           <div class="w-full md:w-1/2 xl:w-1/4 p-3" *ngFor ="let dohnut of dohnutlist">

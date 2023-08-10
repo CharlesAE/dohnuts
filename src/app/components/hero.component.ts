@@ -8,14 +8,14 @@ import { CommonModule } from '@angular/common';
   template: `
   <section >
    <div class="container px-4 mx-auto">
-              <div class=" flex flex-wrap md:items-center  justify-between">
+              <div class=" flex flex-wrap md:items-center justify-between">
               
-                <div class=" gradient-donut rounded-xl text-white background-animate px-6 md:px-14 py-14 xl:py-20 xl:px-24 mb-14 md:max-w-sm md:max-w-lg xl:max-w-2xl">
+                <div class=" gradient-donut rounded-xl text-white background-animate px-6 md:px-14 py-14 xl:py-20 xl:px-24 mb-14  md:max-w-lg xl:max-w-2xl">
                   <div class="md:max-w-lg ">
                    
                   <h1 class="mb-6 text-6xl md:text-7xl font-extrabold leading-[1.25] tracking-wide drop-shadow-lg">
                       <span >Doh'nuts </span>
-                      <span class="block text-champagne dark:text-white" >.</span>
+                      <span class="block maintext" >.</span>
                       <span >nom</span>
                     </h1>
                     <p class="max-w-md text-lg leading-8 mb-6 drop-shadow-md" >Doh'nuts. Some captivating, very likely Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut nulla debitis! text about doh'nuts.</p>
@@ -44,15 +44,15 @@ import { CommonModule } from '@angular/common';
                     <div class="flex items-center">
                       
                       <div>
-                        <span class="text-xl xs:text-5xl font-semibold text-white" >18k+</span>
-                        <span class="block font-bold uppercase text-sm text-donutblue">Donuts Sold</span>
+                        <span class="text-xl  font-semibold text-white" >18k+</span>
+                        <span class="donutstats">Donuts Sold</span>
                       </div>
 
-                      <div class="h-12 w-px mx-auto bg-donutpink"></div>
+                      <div class="h-16 md:h-12 w-px mx-auto bg-donutpink"></div>
 
                       <div>
-                        <span class="text-xl xs:text-5xl font-semibold text-white" >20+</span>
-                        <span class="block font-bold uppercase text-sm text-donutblue" >Awards Won</span>
+                        <span class="text-xl font-semibold text-white" >20+</span>
+                        <span class="donutstats" >Awards Won</span>
                       </div>
 
                     </div>
