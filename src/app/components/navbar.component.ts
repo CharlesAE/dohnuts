@@ -45,6 +45,8 @@ import { CommonModule } from '@angular/common';
                     <div class="grid gap-2">
                         <a (click)="toggleMenu()" class="font-bold text-donutpink" href="/">Home</a>
                         <a (click)="toggleMenu()" class="font-bold text-donutpink" href="dohnuts">Products</a>
+                        <a (click)="toggleMenu()" class="font-bold text-donutpink" href="/">Log In</a>
+                        <a (click)="toggleMenu()" class="font-bold text-donutpink" href="/">Sign Up</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +54,9 @@ import { CommonModule } from '@angular/common';
 
         
 
-        <div class="hidden md:block ml-auto"><a class="inline-block mr-8 font-bold hover:text-donutpink" href="#" >Log In</a><a class="navbtns" href="#" >Sign Up</a></div>
+        <div class="hidden md:block ml-auto">
+          <a class="inline-block mr-8 font-bold hover:text-donutpink" href="login" >Log In</a>
+        <a class="navbtns" href="signup" >Sign Up</a></div>
       </div>
     </div>
     <div class="h-[1px] gradient-donut"></div>

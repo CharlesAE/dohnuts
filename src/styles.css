@@ -9,10 +9,10 @@
     }
   }
   .btns{
-    @apply inline-block w-full md:w-auto text-center px-8 py-3 text-donutblue font-bold bg-white hover:bg-black hover:text-donutpink
+    @apply inline-block w-full md:w-auto text-center  px-8 py-4 text-donutblue font-bold bg-white hover:bg-darkchampagne hover:text-donutpink rounded-lg
 }
 .navbtns{
-    @apply inline-block w-full md:w-auto text-center px-8 py-3 text-donutblue font-bold  hover:bg-black hover:text-donutpink
+    @apply inline-block w-full md:w-auto text-center px-8 py-3 text-donutblue font-bold   hover:text-donutpink
 }
 .donuts{
     @apply absolute bottom-1 md:bottom-3 left-6 md:hover:bottom-10 transition duration-200 
@@ -29,8 +29,15 @@
 .maintext{
     @apply text-champagne dark:text-white
 }
+.mainheading{
+    @apply mb-6 text-6xl md:text-7xl font-extrabold leading-[1.25] tracking-wide drop-shadow-lg
+}
 .donutstats{
     @apply block font-bold uppercase text-sm text-donutblue
+}
+
+.donutinput{
+    @apply w-full px-12 py-6 border border-darkchampagne focus:ring-donutblue focus:border-donutblue rounded-md
 }
   .gradient-donut{
     background-origin: border-box;

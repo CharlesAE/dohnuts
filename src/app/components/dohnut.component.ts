@@ -13,8 +13,8 @@ import { Dohnut } from '../model/dohnut';
           
           <div class="flex flex-wrap items-center -m-6">
             <div class="w-full md:w-7/12 p-8 md:p-16">
-              <div class=" rounded-2xl items-center justify-center bg-repeat-x bg-bottom bg-50" style="background-image: url({{dohnut.bannerUrl}})">
-                <img class="relative top-3 w-full transform hover:scale-105 transition ease-in-out duration-500 
+              <div class=" rounded-2xl items-center justify-center bg-repeat-y bg-bottom bg-16" style="background-image: linear-gradient(rgba(160, 231, 229, 0.4), rgba(255, 174, 188, 0.4)), url({{dohnut.bannerUrl}})">
+                <img class="w-auto mx-auto transform hover:scale-105 transition ease-in-out duration-500 
                 md:p-24" src={{dohnut.img}} alt={{dohnut.imgAlt}} >
               </div>
             </div>

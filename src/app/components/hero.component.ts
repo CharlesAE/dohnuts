@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
                 <div class=" gradient-donut rounded-xl text-white background-animate px-6 md:px-14 py-14 xl:py-20 xl:px-24 mb-14  md:max-w-lg xl:max-w-2xl">
                   <div class="md:max-w-lg ">
                    
-                  <h1 class="mb-6 text-6xl md:text-7xl font-extrabold leading-[1.25] tracking-wide drop-shadow-lg">
+                  <h1 class="mainheading">
                       <span >Doh'nuts </span>
                       <span class="block maintext" >.</span>
                       <span >nom</span>

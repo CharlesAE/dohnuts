@@ -18,7 +18,7 @@ module.exports = {
       },
       backgroundSize: {
         '50': '60%',
-        '16': '4rem',
+        '16': '40%',
       },
       flex: {
         'main': '1 0 auto'
