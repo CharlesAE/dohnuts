@@ -5,7 +5,9 @@
 [![Built with Angular](https://img.shields.io/badge/Built%20with-Angular-DD0031?logo=angular&logoColor=white)](https://angular.io/)
 [![TailwindCSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-**Dohnuts** is a playful and simple open source web app that lists various donuts from Krispy Kreme. It's built with Angular, styled using TailwindCSS, and leverages the power of Angular Signals for reactive data handling.
+**Dohnuts** is a playful and simple open source web app that serves as a dictionary for various donuts offered by Krispy Kreme. Built with Angular, styled with Tailwind CSS, and leverages the power of Angular Signals for reactive data handling.
+
+![Dohnuts Screenshot](https://raw.githubusercontent.com/CharlesAE/dohnuts/refs/heads/main/dohnuts_landing.png) 
 
 ---
 
