@@ -84,6 +84,14 @@ MIT © [CharlesAE](https://github.com/CharlesAE)
 
 ---
 
+## 🙏 Acknowledgements
+
+- 🍩 **Krispy Kreme** for the delicious donut inspiration!
+- 🅰️ **The Angular Team** for the powerful web framework.
+- 🎨 **The Tailwind CSS Team** for the elegant styling utility.
+
+---
+
 ## 💬 A Note
 
 This project is not affiliated with or endorsed by Krispy Kreme. It's just a sweet tribute for fun and learning 🍩
